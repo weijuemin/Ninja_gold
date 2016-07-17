@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <title>Ninja Gold</title>
+    {% load staticfiles %}
+    <script src="{% static 'ninja_gold/js/jquery.js' %}"></script>
+    <script src="{% static 'ninja_gold/js/Bootstrap.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'ninja_gold/css/Bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'ninja_gold/css/styles.css' %}">
+</head>
+<body>
+<div class="wrap">
+    <p class="goldSum">Your gold: 
+    <span>{{ test }}</span>
+    </p>
+    <p>{{ test }}</p>
+</div>
+</body>
+</html>
